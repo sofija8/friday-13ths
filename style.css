@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Calibri, cursive;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    height: auto;
+    margin: 0;
+    background-color: #003326;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+h1 {
+    font-family: 'Henny Penny', cursive;
+    color: #00cc66;
+}
+
+img {
+    width: 80%;
+}
+
+.garfield {
+    text-align: center;
+    align-self: flex-start;
+}
+
+.content {
+    align-self: center;
+}
